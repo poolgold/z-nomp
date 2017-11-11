@@ -90,6 +90,8 @@ npm install
 
 ##### Pool config
 Take a look at the example json file inside the `pool_configs` directory. Rename it to `zclassic.json` and change the
+example fields to fit your setup. 
+You can find example json files for both Bitcoin Gold main and testnet inside the `pool_configs` directory. You need to change the
 example fields to fit your setup.
 
 ```
@@ -107,9 +109,9 @@ ie: Miner 1 mines at 0.1 difficulty and finds 10 shares, the pool sees it as 1 s
 ```
 node [path to cli.js] [coin name in config] [block hash symbol]
 ```
-Example: inside `zclassic.conf` add the line
+Example: inside `bitcoin.conf` add the line
 ```
-blocknotify=node /home/user/z-nomp/scripts/cli.js blocknotify zclassic %s
+blocknotify=node /home/user/z-nomp-bitcoin-gold/scripts/cli.js blocknotify btg %s
 ```
 
 Alternatively, you can use a more efficient block notify script written in pure C. Build and usage instructions
