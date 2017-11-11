@@ -88,8 +88,7 @@ npm update
 npm install
 ```
 ##### Pool config
-You can find example json files for both Bitcoin Gold main and testnet inside the `pool_configs` directory. You need to change the
-example fields to match your setup.
+You can find example json files for both Bitcoin Gold main and testnet inside the `pool_configs` directory. You need to change the example fields to match your setup.
 
 ```
 Please Note that: 1 Difficulty is actually 8192, 0.125 Difficulty is actually 1024.
