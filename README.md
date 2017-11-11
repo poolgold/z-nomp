@@ -87,12 +87,9 @@ cd z-nomp-bitcoin-gold
 npm update
 npm install
 ```
-
 ##### Pool config
-Take a look at the example json file inside the `pool_configs` directory. Rename it to `zclassic.json` and change the
-example fields to fit your setup. 
 You can find example json files for both Bitcoin Gold main and testnet inside the `pool_configs` directory. You need to change the
-example fields to fit your setup.
+example fields to match your setup.
 
 ```
 Please Note that: 1 Difficulty is actually 8192, 0.125 Difficulty is actually 1024.
