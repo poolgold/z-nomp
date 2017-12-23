@@ -581,7 +581,7 @@ module.exports = function(logger, portalConfig, poolConfigs){
                 coinStats.hashrate = shareMultiplier * coinStats.shares / portalConfig.website.stats.hashrateWindow;
                 coinStats.hashrateString = _this.getReadableHashRateString(coinStats.hashrate);
 				
-                var _blocktime = 160;
+                var _blocktime = 600;
 				var _networkHashRate = parseFloat(coinStats.poolStats.networkSols) * 1.2;
 				var _myHashRate = (coinStats.hashrate / 1000000) * 2;
 				coinStats.luckDays =  ((_networkHashRate / _myHashRate * _blocktime) / (24 * 60 * 60)).toFixed(3);
